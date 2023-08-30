@@ -59,7 +59,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: flex-grow 0.5s;
 
+}
+
+.card:hover{
+    flex-grow: 1.25;
 }
 
 .green{
