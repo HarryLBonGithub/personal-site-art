@@ -1,4 +1,4 @@
-* {
+:root {
     font-family:sans-serif;
     box-sizing: border-box;
 }
@@ -73,6 +73,19 @@ body {
     flex-basis: 0px;
     flex-grow: 1;
 }
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.headshot{
+    width: 75%;
+    box-shadow: 10px 10px 0px -1px black;
+}
+
 
 .text-block{
     background: black;
