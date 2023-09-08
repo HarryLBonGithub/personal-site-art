@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: #EFF3E5;
+}
+
 body {
     margin: 0px;
     display: flex;
@@ -10,6 +15,7 @@ body {
     flex-direction: column;
 
 }
+
 
 .heading {
     display: flex;
@@ -61,6 +67,29 @@ body {
     justify-content: center;
     transition: flex-grow 0.5s;
 
+}
+
+.half{
+    flex-basis: 0px;
+    flex-grow: 1;
+}
+
+.text-block{
+    background: black;
+    color:#EFF3E5;
+    padding: 1em;
+    margin: 1em;
+    font-size: large;
+}
+
+.reviews-block{
+    padding:1em;
+    margin:1em;
+}
+
+.reviews-block p{
+    margin: 0px;
+    text-align: right;
 }
 
 .card:hover{
