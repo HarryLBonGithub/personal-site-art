@@ -80,6 +80,7 @@ body {
     padding: 1em;
     margin: 1em;
     font-size: large;
+    box-shadow: 5px 5px 0px -1px #EFF3E5;
 }
 
 .reviews-block{
