@@ -126,6 +126,10 @@ body {
     background: var(--primary-purple);
 }
 
+.black{
+    background-color: black;
+}
+
 .card h2{
     margin: 0px;
     color:var(--primary-white);
