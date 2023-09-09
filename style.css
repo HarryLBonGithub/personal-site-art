@@ -1,11 +1,16 @@
 :root {
     font-family:sans-serif;
     box-sizing: border-box;
+    --primary-green: #6C7D53;
+    --primary-orange: #F0C75F;
+    --primary-purple: #7B3889;
+    --primary-white: #EFF3E5;
+    --secondary-white: #EFF3EF;
 }
 
 a{
     text-decoration: none;
-    color: #EFF3E5;
+    color: var(--primary-white);
 }
 
 body {
@@ -20,7 +25,7 @@ body {
 .heading {
     display: flex;
     flex-direction: column;
-    color: #EFF3E5;
+    color: var(--primary-white);
     background: black;
     padding: 1em;
 }
@@ -45,7 +50,7 @@ body {
 .content{
     display:flex;
     justify-content: center;
-    background:#EFF3EF;
+    background: var(--secondary-white);
     flex-grow: 1;
 }
 
@@ -89,11 +94,11 @@ body {
 
 .text-block{
     background: black;
-    color:#EFF3E5;
+    color: var(--primary-white);;
     padding: 1em;
     margin: 1em;
     font-size: large;
-    box-shadow: 5px 5px 0px -1px #EFF3E5;
+    box-shadow: 5px 5px 0px -1px var(--primary-white);
 }
 
 .reviews-block{
@@ -111,18 +116,19 @@ body {
 }
 
 .green{
-    background: #6C7D53;
+    background: var(--primary-green);
+
 }
 .orange{
-    background: #F0C75F;
+    background: var(--primary-orange);
 }
 .purple{
-    background: #7B3889;
+    background: var(--primary-purple);
 }
 
 .card h2{
     margin: 0px;
-    color:#EFF3E5;
+    color:var(--primary-white);
     background-color: black;
     padding: 1em;
     margin: 1em;
@@ -130,7 +136,7 @@ body {
 
 .footer{
     background: black;
-    color: #EFF3E5;
+    color: var(--primary-white);
     display:flex;
     justify-content: center;
 }
