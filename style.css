@@ -18,7 +18,6 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-
 }
 
 
@@ -55,13 +54,19 @@ body {
 }
 
 .deck{
-    display: flex;
+    display:flex;
     justify-content: center;
     flex-grow:1;
     max-width: 1000px;
     align-items: stretch;
     flex-wrap: wrap;
 }
+
+@media (max-width: 768px) {
+    .deck {
+      flex-direction: column;
+    }
+  }
 
 .card{
     flex-basis: 0px;
@@ -77,6 +82,7 @@ body {
 .half{
     flex-basis: 0px;
     flex-grow: 1;
+
 }
 
 .image-container{
@@ -130,10 +136,10 @@ label{
 }
 
 .headshot{
-    width: 75%;
+    max-width: 75%;
+    max-height: 90%;
     box-shadow: 10px 10px 0px -1px black;
 }
-
 
 .text-block{
     background: black;
