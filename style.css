@@ -77,12 +77,24 @@ body {
     flex-grow:1;
     align-items: stretch;
     flex-wrap: wrap;
+    max-width: 75%;
 }
 
 @media (max-width: 768px) {
     .deck {
       flex-direction: column;
     }
+  }
+
+  .doodle-gallery{
+    display:flex;
+    justify-content: center;
+    flex-grow:1;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap:1em;
+    max-width: 75%;
+    margin: 0 0 1em 0;
   }
 
 .card{
@@ -98,6 +110,8 @@ body {
 .album-card{
     flex-basis: 0px;
     flex-grow: 1;
+    min-width: 450px;
+    max-width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,7 +119,7 @@ body {
 }
 
 .album-card p{
-    width: 65%;;
+    width: 65%;
 }
 
 .half{
@@ -168,11 +182,20 @@ label{
     max-width: 75%;
     max-height: 90%;
     box-shadow: 10px 10px 0px -1px black;
+    border: 1px solid black;
 }
 
+.doodle{
+    flex-grow: 1;
+    max-width: 350px;
+    box-shadow: 10px 10px 0px -1px black;
+    border: 1px solid black;
+}
 .album-cover{
     max-width: 75%;
     max-height: 90%;
+    box-shadow: 10px 10px 0px -1px black;
+    border: 1px solid black;
 }
 
 .text-block{
