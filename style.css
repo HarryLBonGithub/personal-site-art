@@ -78,6 +78,7 @@ body {
     align-items: stretch;
     flex-wrap: wrap;
     max-width: 75%;
+    margin:1em 0 0 0;
 }
 
 @media (max-width: 768px) {
@@ -94,7 +95,7 @@ body {
     flex-wrap: wrap;
     gap:1em;
     max-width: 75%;
-    margin: 0 0 1em 0;
+    margin: 1em 0 1em 0;
   }
 
 .card{
@@ -121,6 +122,15 @@ body {
 .album-card p{
     width: 65%;
 }
+
+.bar{
+    width: 100%;
+    margin:0;
+    text-align: center;
+    padding: 0.5em;
+}
+
+
 
 .half{
     flex-basis: 0px;
