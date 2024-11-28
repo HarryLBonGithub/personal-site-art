@@ -81,6 +81,16 @@ body {
     margin:1em 0 0 0;
 }
 
+.video-deck{
+    display:flex;
+    justify-content: center;
+    flex-grow:1;
+    max-width: 75%;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
 @media (max-width: 768px) {
     .deck {
       flex-direction: column;
@@ -106,6 +116,16 @@ body {
     align-items: center;
     justify-content: center;
     transition: flex-grow 0.5s;
+}
+
+.video-card{
+    flex-basis: 0px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
 }
 
 .album-card{
