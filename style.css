@@ -228,6 +228,11 @@ label{
     border: 1px solid black;
 }
 
+iframe{
+    box-shadow: 10px 10px 0px -1px black;
+    border: 1px solid black;
+}
+
 .text-block{
     background: black;
     color: var(--primary-white);;
@@ -279,4 +284,9 @@ label{
     color: var(--primary-white);
     display:flex;
     justify-content: center;
+}
+
+.spacer{
+    height:2rem;
+    background-color: var(--secondary-white);
 }
