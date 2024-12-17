@@ -35,6 +35,24 @@ body {
 }
 
 
+.menu{
+    display: initial;
+}
+
+.mobile-menu{
+    display: none;
+    padding: 0;
+    margin-top: 1em;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu-check{
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
 .menu ul{
     display: flex;
     list-style: none;
@@ -44,6 +62,21 @@ body {
     padding: 1em;
     margin: 0 auto;
     max-width: 50%;
+}
+.mobile-menu label{
+    text-align: center;
+    font-weight: bold;
+}
+.mobile-menu-list{
+    display: none;
+    list-style: none;
+    text-align: center;
+    padding: 1em 1em 0 1em;
+    margin: 0;
+}
+
+#menu-check:checked ~ .mobile-menu-list{
+    display: initial;
 }
 
 .content{
@@ -94,6 +127,13 @@ body {
 @media (max-width: 768px) {
     .deck {
       flex-direction: column;
+    }
+
+    .menu {
+        display: none;
+    }
+    .mobile-menu {
+        display:flex;
     }
   }
 
