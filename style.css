@@ -195,7 +195,10 @@ body {
 .half{
     flex-basis: 0px;
     flex-grow: 1;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .image-container{
@@ -275,11 +278,20 @@ iframe{
 
 .text-block{
     background: black;
-    color: var(--primary-white);;
+    color: var(--primary-white);
     padding: 1em;
     margin: 1em;
     font-size: large;
     box-shadow: 5px 5px 0px -1px var(--primary-white);
+}
+
+.text-block-alt{
+    background: var(--primary-white);
+    color: black;
+    padding: 1em;
+    margin: 1em;
+    font-size: large;
+    box-shadow: 5px 5px 0px -1px var(--primary-purple);
 }
 
 .reviews-block{
